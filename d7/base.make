@@ -47,14 +47,14 @@ projects[] = drupal
 ;  * includes[remote] = "http://www.example.com/remote.make"
 ;  */
 
-includes[modules] = "modules.make"
-includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/modules.make"
-includes[themes] = "themes.make"
-includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/themes.make"
-includes[features] = "features.make"
-includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/features.make"
-includes[features] = "patches.make"
-includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/patches.make"
+;includes[modules] = "modules.make"
+;includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/modules.make"
+;includes[themes] = "themes.make"
+;includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/themes.make"
+;includes[features] = "features.make"
+;includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/features.make"
+;includes[features] = "patches.make"
+;includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/patches.make"
 
 
 ; ### Profile(s)

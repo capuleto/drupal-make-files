@@ -56,7 +56,7 @@ projects[field_group][version] = 1.x-dev
 projects[field_group][subdir] = contrib
 
 ; #### Structure
-projects[panels][version] = 1
+projects[panels][version] = 3.x-dev
 projects[panels][subdir] = contrib
 projects[ds][version] = 1
 projects[ds][subdir] = contrib
@@ -97,7 +97,7 @@ projects[image_resize_filter][subdir] = contrib
 ; #### Webform
 projects[webform][version] = 3
 projects[webform][subdir] = contrib
-projects[webform_validation][version] = 1.x-dev
+projects[webform_validation][version] = 1
 projects[webform_validation][subdir] = contrib
 
 ; #### Utilities
