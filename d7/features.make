@@ -1,4 +1,4 @@
-; ----------- Features ----------- ;
+; ----------- Features -----------
 
 ; /**
 ;  * This file is just for features and their dependent libraries

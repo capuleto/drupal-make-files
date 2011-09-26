@@ -1,4 +1,4 @@
-; ----------- Modules ----------- ;
+; ----------- Modules -----------
 
 ; /**
 ;  * This file is just for modules and their dependent libraries
@@ -123,12 +123,12 @@ projects[commerce][subdir] = contrib
 ; ----------- Libraries ----------- ;
 
 ; #### TinyMCE
-libraries[tinymce][download][type] = "git"
+libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3.4.5_jquery.zip"
 libraries[tinymce][directory_name] = "tinymce"
 
 ; #### Colorbox (GitHub)
-libraries[colorbox][download][type] = "git"
+libraries[colorbox][download][type] = git
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][directory_name] = "colorbox"
 
