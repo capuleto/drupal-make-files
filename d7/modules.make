@@ -10,7 +10,6 @@
 ;  */
 
 ; #### API Modules
-
 projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
 projects[entity][version] = 1.x-dev
@@ -29,19 +28,22 @@ projects[libraries][version] = 2
 projects[libraries][subdir] = contrib
 
 ; #### Development
-
-projects[examples][version] = 1.x-dev
-projects[examples][subdir] = contrib
-projects[coder][version] = 1
-projects[coder][subdir] = contrib
 projects[devel][version] = 1
 projects[devel][subdir] = contrib
+projects[coder][version] = 1
+projects[coder][subdir] = contrib
 projects[diff][version] = 2.x-dev
 projects[diff][subdir] = contrib
-projects[strongarm][version] = 2.x-dev
-projects[strongarm][subdir] = contrib
 projects[features][version] = 1.x-dev
 projects[features][subdir] = contrib
+projects[strongarm][version] = 2.x-dev
+projects[strongarm][subdir] = contrib
+projects[migrate][version] = 2
+projects[migrate][subdir] = contrib
+projects[feeds][version] = 2
+projects[feeds][subdir] = contrib
+projects[examples][version] = 1.x-dev
+projects[examples][subdir] = contrib
 
 ; #### Field and field related modules
 projects[email][version] = 1
@@ -64,7 +66,7 @@ projects[menu_block][version] = 2.x-dev
 projects[menu_block][subdir] = contrib
 
 ; #### Media
-; //hoping that the stable releases are stable
+; // hoping that the stable releases are stable
 projects[media][version] = 1
 projects[media][subdir] = contrib
 
@@ -75,12 +77,12 @@ projects[views_bulk_operations][version] = 3.x-dev
 projects[views_bulk_operations][subdir] = contrib
 
 ; #### I18n & L10n
-projects[i18n][version] = 1
+projects[i18n][version] = 1.x-dev
 projects[i18n][subdir] = language
+projects[l10n_client][version] = 1.x-dev
+projects[l10n_client][subdir] = language
 projects[l10n_update][version] = 1.x-dev
 projects[l10n_update][subdir] = language
-projects[l10n_client][version] = 1
-projects[l10n_client][subdir] = language
 
 ; #### Content & Editor
 projects[wysiwyg][version] = 2.x-dev
@@ -109,6 +111,8 @@ projects[module_filter][subdir] = contrib
 ; #### Search
 projects[search_api][version] = 1.x-dev
 projects[search_api][subdir] = contrib
+projects[facetapi][version] = 1.x-dev
+projects[facetapi][subdir] = contrib
 
 ; #### Commerce
 projects[commerce][version] = 1.x-dev
@@ -119,8 +123,8 @@ projects[commerce][subdir] = contrib
 ; ----------- Libraries ----------- ;
 
 ; #### TinyMCE
-libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3_3_9_3_jquery.zip"
+libraries[tinymce][download][type] = "git"
+libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3.4.5_jquery.zip"
 libraries[tinymce][directory_name] = "tinymce"
 
 ; #### Colorbox (GitHub)
