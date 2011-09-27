@@ -45,6 +45,10 @@ The following section lists modules that are candidates for the make file.
 * Rules Link (rules_link)
 * Memcache (memcache)
 * Varnish (varnish)
+* Redirect (redirect)
+* Global Redirect (globalredirect)
+* Pathologic (pathologic)
+
 * _to be continued_
 
 
