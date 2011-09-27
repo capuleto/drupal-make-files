@@ -43,18 +43,15 @@ projects[] = drupal
 
 ; /**
 ;  * include other make files (local or remote)
+;  * includes[modules] = "modules.make"
 ;  * includes[example_relative] = "../example_relative/example_relative.make"
 ;  * includes[remote] = "http://www.example.com/remote.make"
 ;  */
 
-includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/modules.make"
-includes[modules] = "modules.make"
-includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/themes.make"
-includes[themes] = "themes.make"
-;includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/features.make"
-;includes[features] = "features.make"
-;includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/patches.make"
-;includes[features] = "patches.make"
+includes[themes] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/themes.make"
+includes[modules] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/modules.make"
+;includes[features] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/features.make"
+;includes[patches] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/patches.make"
 
 
 ; ### Profile(s)
@@ -66,6 +63,10 @@ includes[themes] = "themes.make"
 ;  */
 
 ; #### Development profile
-
+;projects[commerce_kickstart][type] = profile
+;projects[commerce_kickstart][version] = 1.x-dev
+;projects[commerce_kickstart][download][type] = git
+;projects[commerce_kickstart][download][url] = http://git.drupal.org/project/commerce_kickstart.git
+;projects[commerce_kickstart][download][branch] = 7.x-1.x
 
 ; #### Standard profile

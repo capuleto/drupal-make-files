@@ -11,6 +11,22 @@ All D7 related modules and themes are in this directory.
 3. Build an installation profile within an existing Drupal site:
    _drush make --no-core --contrib-destination=. installprofile.make_
 
+### How to include a module / theme
+
+```php
+projects[entity][type] = module
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.x-dev
+```
+
+If git is used to get the module/theme/profile add this section as well
+
+```php
+projects[entity][download][type] = git
+projects[entity][download][url] = http://git.drupal.org/project/entity.git
+projects[entity][download][branch] = 7.x-1.x
+```
+
 ### Make file candidate modules
 
 There are so many new modules coming up, that it is hard to keep track of them.
