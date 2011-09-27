@@ -11,6 +11,9 @@ All D7 related modules and themes are in this directory.
 3. Build an installation profile within an existing Drupal site:
    _drush make --no-core --contrib-destination=. installprofile.make_
 
+More information on how to work with drush_make can be found in the [README.txt](http://drupalcode.org/project/drush_make.git/blob_plain/refs/heads/6.x-3.x:/README.txt)
+
+
 ### How to include a module / theme
 
 ```php
