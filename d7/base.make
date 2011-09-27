@@ -1,4 +1,4 @@
-; ----------- Base ----------- ;
+; ----------- Base -----------
 
 ; /**
 ;  * This is the base make file that includes other make files depending on the
@@ -47,14 +47,14 @@ projects[] = drupal
 ;  * includes[remote] = "http://www.example.com/remote.make"
 ;  */
 
-;includes[modules] = "modules.make"
-;includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/modules.make"
-;includes[themes] = "themes.make"
-;includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/themes.make"
-;includes[features] = "features.make"
+includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/modules.make"
+includes[modules] = "modules.make"
+includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/themes.make"
+includes[themes] = "themes.make"
 ;includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/features.make"
-;includes[features] = "patches.make"
+;includes[features] = "features.make"
 ;includes[remote] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/patches.make"
+;includes[features] = "patches.make"
 
 
 ; ### Profile(s)

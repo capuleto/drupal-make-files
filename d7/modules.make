@@ -123,14 +123,16 @@ projects[commerce][subdir] = contrib
 ; ----------- Libraries ----------- ;
 
 ; #### TinyMCE
-libraries[tinymce][download][type] = git
+libraries[tinymce][download][type] = get
 libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3.4.5_jquery.zip"
-libraries[tinymce][directory_name] = "tinymce"
+libraries[tinymce][directory_name] = tinymce
+libraries[tinymce][destination] = libraries
 
 ; #### Colorbox (GitHub)
 libraries[colorbox][download][type] = git
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
-libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][directory_name] = colorbox
+libraries[colorbox][destination] = libraries
 
 
 
