@@ -15,7 +15,6 @@
 
 core = 7.x
 
-
 ; ### API version
 
 ; /**
@@ -23,7 +22,6 @@ core = 7.x
 ;  */
 
 api = 2
-
 
 ; ### Drupal core
 

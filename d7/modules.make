@@ -42,6 +42,8 @@ projects[migrate][version] = 2
 projects[migrate][subdir] = contrib
 projects[feeds][version] = 2
 projects[feeds][subdir] = contrib
+projects[variable][version] = 1
+projects[variable][subdir] = contrib
 projects[examples][version] = 1.x-dev
 projects[examples][subdir] = contrib
 
@@ -94,6 +96,12 @@ projects[insert][subdir] = contrib
 projects[image_resize_filter][version] = 1
 projects[image_resize_filter][subdir] = contrib
 
+; #### Access
+projects[content_access][version] = 1
+projects[content_access][subdir] = contrib
+projects[og][version] = 1
+projects[og][subdir] = contrib
+
 ; #### Webform
 projects[webform][version] = 3
 projects[webform][subdir] = contrib
@@ -103,6 +111,8 @@ projects[webform_validation][subdir] = contrib
 ; #### Utilities
 projects[admin_menu][version] = 3.x-dev
 projects[admin_menu][subdir] = contrib
+projects[flag][version] = 2.x-dev
+projects[flag][subdir] = contrib
 projects[backup_migrate][version] = 2
 projects[backup_migrate][subdir] = contrib
 projects[module_filter][version] = 1.x-dev

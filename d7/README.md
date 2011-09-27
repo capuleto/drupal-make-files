@@ -35,10 +35,13 @@ The following section lists modules that are candidates for the make file.
 
 * Bean (bean)
 * Boxes (boxes)
-* Views context displa (vcd)
+* Views Context display (vcd)
 * Module Filter (module_filter)
 * Profiler (profiler)
 * Message (message)
+* Rules Link (rules_link)
+* Memcache (memcache)
+* Varnish (varnish)
 * _to be continued_
 
 
