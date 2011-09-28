@@ -50,6 +50,7 @@ includes[themes] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/
 includes[modules] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/modules.make"
 ;includes[features] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/features.make"
 ;includes[patches] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/patches.make"
+includes[dev] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/dev.make"
 
 
 ; ### Profile(s)
