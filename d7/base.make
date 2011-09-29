@@ -3,6 +3,8 @@
 ; /**
 ;  * This is the base make file that includes other make files depending on the
 ;  * project or installation context.
+;  *
+;  * @TODO Put installation profiles into seperate make file
 ;  */
 
 
@@ -62,10 +64,19 @@ includes[dev] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/dev
 ;  */
 
 ; #### Development profile
+
+; #### Standard profile
+
+; #### L10n profile
+;projects[l10n_install][type] = profile
+;projects[l10n_install][version] = 1.x-dev
+;projects[l10n_install][download][type] = git
+;projects[l10n_install][download][url] = http://git.drupal.org/project/l10n_install.git
+;projects[l10n_install][download][branch] = 7.x-1.x
+
+; #### Commerce profile
 ;projects[commerce_kickstart][type] = profile
 ;projects[commerce_kickstart][version] = 1.x-dev
 ;projects[commerce_kickstart][download][type] = git
 ;projects[commerce_kickstart][download][url] = http://git.drupal.org/project/commerce_kickstart.git
 ;projects[commerce_kickstart][download][branch] = 7.x-1.x
-
-; #### Standard profile
