@@ -5,7 +5,6 @@
 ;  *
 ;  * There is no differentiation between stable and dev releases!
 ;  *
-;  * @TODO include dev modules using another make file?
 ;  * @TODO include commerce modules using another make file?
 ;  */
 
