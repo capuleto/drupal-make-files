@@ -32,6 +32,22 @@ api = 2
 ;projects[drupal][version] = 8.0
 
 ; // Head from git
-;projects[drupal][download][type] = git
-;projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
-;projects[drupal][download][branch] = 8.x
+projects[drupal][download][type] = git
+projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
+projects[drupal][download][branch] = 8.x
+
+
+; ### Includes
+
+; /**
+;  * include other make files (local or remote)
+;  * includes[modules] = "modules.make"
+;  * includes[example_relative] = "../example_relative/example_relative.make"
+;  * includes[remote] = "http://www.example.com/remote.make"
+;  */
+
+;includes[themes] = "https://raw.github.com/mikewink/drupal-make-files/master/d8/themes.make"
+;includes[modules] = "https://raw.github.com/mikewink/drupal-make-files/master/d8/modules.make"
+;includes[features] = "https://raw.github.com/mikewink/drupal-make-files/master/d8/features.make"
+;includes[patches] = "https://raw.github.com/mikewink/drupal-make-files/master/d8/patches.make"
+includes[dev] = "https://raw.github.com/mikewink/drupal-make-files/master/d8/dev.make"

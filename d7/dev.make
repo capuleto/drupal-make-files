@@ -1,4 +1,4 @@
-; ----------- Patches -----------
+; ----------- Development -----------
 
 ; /**
 ;  * This file is just for development modules and theming helpers
@@ -23,3 +23,5 @@ projects[variable][version] = 1
 projects[variable][subdir] = contrib
 projects[examples][version] = 1.x-dev
 projects[examples][subdir] = contrib
+projects[demo][version] = 1.x-dev
+projects[demo][subdir] = contrib

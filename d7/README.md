@@ -47,6 +47,7 @@ The following section lists modules that are candidates for the make file.
 * Redirect (redirect)
 * Global Redirect (globalredirect)
 * Pathologic (pathologic)
+* Variable (variable)
 
 * _to be continued_
 
