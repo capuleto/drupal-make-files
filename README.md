@@ -1,6 +1,6 @@
-### Drupal make files
+# Drupal make files
 
-This repo houses my Drupal make files for development and some production
+This repo houses my Drupal (Drush) make files for development and some production
 sites. 
 
 Feel free to fork or start creating your own Drupal make files from scratch.
@@ -9,11 +9,11 @@ There are three directories in this repo, each for one major version of Drupal.
 As of time writing (_September 2011_) Drupal 7 is the current version, but there
 are still make files for Drupal 8 and also 6.
 
+
 ### Requirements to use Drush Make files
 
 In order to use these make files, you need to have [Drush](http://drupal.org/project/drush) and [Drush Make](http://drupal.org/project/drush_make)<sup>1</sup> installed on your device.
 
-<sup>1</sup> _Even if Drush Make project may state it's latest version is Drupal 6.xx you can use it for Drupal 7 and up (and down) as well. Drush Make works Drupal release independent_.
 
 ### How to run a make file
 
@@ -28,7 +28,17 @@ In order to use these make files, you need to have [Drush](http://drupal.org/pro
 
 More information on how to work with drush_make can be found in the [README.txt](http://drupalcode.org/project/drush_make.git/blob_plain/refs/heads/6.x-3.x:/README.txt)
 
-## License
+
+### Want to do even more from the command line?
+
+Check out the [Drush Deploy](http://drupal.org/project/drush_deploy) and [Dog](http://drupal.org/project/dog)<sup>2</sup> modules.
+
+<sup>1</sup> _Even if Drush Make project may state it's latest version is Drupal 6.xx you can use it for Drupal 7 and up (and down) as well. Drush Make works Drupal release independent_.
+
+<sup>2</sup> _Drupal on Git is still work in progress by Sam Boyer, but looks really promissing_.
+
+
+### License
 (The MIT License)
 
 Copyright © 2009-2011 Brandon Mathis
