@@ -48,6 +48,7 @@ The following section lists modules that are candidates for the make file.
 * Global Redirect (globalredirect)
 * Pathologic (pathologic)
 * Variable (variable)
+* Entity Views Attachement (eva)
 
 * _to be continued_
 
