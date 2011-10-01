@@ -47,9 +47,19 @@ projects[menu_block][version] = 2.x-dev
 projects[menu_block][subdir] = contrib
 
 ; #### Media
-; // hoping that the stable releases are stable
-projects[media][version] = 1
+; // update to the 2.x branch as soon as possible
+projects[media][version] = 1.x-dev
 projects[media][subdir] = contrib
+projects[media_update][version] = 1
+projects[media_update][subdir] = contrib
+projects[plupload][version] = 1
+projects[plupload][subdir] = contrib
+; // i18n support
+;projects[media_translation][version] = 1
+;projects[media_translation][subdir] = contrib
+; // needs media 2.x
+;projects[views_media_browser][version] = 1
+;projects[views_media_browser][subdir] = contrib
 
 ; #### Views
 projects[views][version] = 3.x-dev
@@ -96,6 +106,8 @@ projects[backup_migrate][version] = 2
 projects[backup_migrate][subdir] = contrib
 projects[module_filter][version] = 1.x-dev
 projects[module_filter][subdir] = contrib
+projects[openidadmin][version] = 1
+projects[openidadmin][subdir] = contrib
 
 ; #### Search
 projects[search_api][version] = 1.x-dev
@@ -104,6 +116,7 @@ projects[facetapi][version] = 1.x-dev
 projects[facetapi][subdir] = contrib
 
 ; #### Commerce
+; // add commerce related projects as well
 projects[commerce][version] = 1.x-dev
 projects[commerce][subdir] = contrib
 
