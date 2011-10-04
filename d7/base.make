@@ -55,15 +55,15 @@ includes[dev] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/dev
 ; - yet to be created -
 
 ; L10n profile
-;projects[l10n_install][type] = profile
-;projects[l10n_install][version] = 1.x-dev
-;projects[l10n_install][download][type] = git
-;projects[l10n_install][download][url] = http://git.drupal.org/project/l10n_install.git
-;projects[l10n_install][download][branch] = 7.x-1.x
+projects[l10n_install][type] = profile
+projects[l10n_install][version] = 1.x-dev
+projects[l10n_install][download][type] = git
+projects[l10n_install][download][url] = http://git.drupal.org/project/l10n_install.git
+projects[l10n_install][download][branch] = 7.x-1.x
 
 ; Commerce profile
-;projects[commerce_kickstart][type] = profile
-;projects[commerce_kickstart][version] = 1.x-dev
-;projects[commerce_kickstart][download][type] = git
-;projects[commerce_kickstart][download][url] = http://git.drupal.org/project/commerce_kickstart.git
-;projects[commerce_kickstart][download][branch] = 7.x-1.x
+projects[commerce_kickstart][type] = profile
+projects[commerce_kickstart][version] = 1.x-dev
+projects[commerce_kickstart][download][type] = git
+projects[commerce_kickstart][download][url] = http://git.drupal.org/project/commerce_kickstart.git
+projects[commerce_kickstart][download][branch] = 7.x-1.x
