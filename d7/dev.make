@@ -39,7 +39,7 @@ projects[deploy][subdir] = development
 projects[uuid][version] = 1.x-dev
 projects[uuid][subdir] = development
 
-projects[node_export][version] = 1.x-dev
+projects[node_export][version] = 3.x-dev
 projects[node_export][subdir] = development
 
 projects[advanced_help][version] = 1.x-dev
