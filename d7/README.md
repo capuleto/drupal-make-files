@@ -36,8 +36,8 @@ There are so many new modules coming up, that it is hard to keep track of them.
 
 The following section lists modules that are candidates for the make file.
 
-* Bean (bean)
-* Boxes (boxes)
+* Bean (bean) - added
+* Boxes (boxes) - added
 * Views Context display (vcd)
 * Profiler (profiler)
 * Message (message)
@@ -49,7 +49,12 @@ The following section lists modules that are candidates for the make file.
 * Pathologic (pathologic)
 * Variable (variable)
 * Entity Views Attachement (eva)
-
+* Spaces (spaces)
+* Microdata (microdata)
+* Schema.org (schemaorg)
+* Renderable Elements (rel)
+* Sweaver (sweaver)
+ 
 * _to be continued_
 
 
