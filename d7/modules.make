@@ -145,6 +145,9 @@ projects[module_filter][subdir] = contrib
 projects[openidadmin][version] = 1
 projects[openidadmin][subdir] = contrib
 
+projects[pathologic][version] = 1
+projects[pathologic][subdir] = contrib
+
 
 ; Search
 projects[search_api][version] = 1.x-dev
@@ -157,6 +160,21 @@ projects[facetapi][subdir] = contrib
 ; add commerce related projects as well
 projects[commerce][version] = 1.x-dev
 projects[commerce][subdir] = contrib
+
+
+; SEO & Analytics
+projects[metatag][version] = 1
+projects[metatag][subdir] = contrib
+
+projects[xmlsitemap][version] = 2
+projects[xmlsitemap][subdir] = contrib
+
+projects[globalredirect][version] = 1.x-dev
+projects[globalredirect][subdir] = contrib
+
+projects[google_analytics][version] = 1
+projects[google_analytics][subdir] = contrib
+
 
 
 ; Libraries
