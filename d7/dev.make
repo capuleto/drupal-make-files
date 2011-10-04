@@ -44,3 +44,6 @@ projects[node_export][subdir] = development
 
 projects[advanced_help][version] = 1.x-dev
 projects[advanced_help][subdir] = development
+
+projects[environment_indicator][version] = 1
+projects[environment_indicator][subdir] = development
