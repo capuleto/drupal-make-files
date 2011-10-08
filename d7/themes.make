@@ -6,9 +6,9 @@
 
 ; Base theme(s)
 projects[tao][type] = theme
-projects[tao][version] = 3
-projects[tao][download][type] = git
-projects[tao][download][url] = http://git.drupal.org/project/tao.git
+projects[tao][version] = 3.x-dev
+;projects[tao][download][type] = git
+;projects[tao][download][url] = http://git.drupal.org/project/tao.git
 ;projects[tao][download][branch] = 7.x-3.x
 
 
@@ -30,8 +30,8 @@ projects[panels_everywhere][subdir] = contrib
 ; Admin theme(s)
 projects[rubik][type] = theme
 projects[rubik][version] = 4.x-dev
-projects[rubik][download][type] = git
-projects[rubik][download][url] = http://git.drupal.org/project/rubik.git
+;projects[rubik][download][type] = git
+;projects[rubik][download][url] = http://git.drupal.org/project/rubik.git
 ;projects[rubik][download][branch] = 7.x-4.x
 
 
