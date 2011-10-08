@@ -276,6 +276,12 @@ projects[pathologic][download][url] = http://git.drupal.org/project/pathologic.g
 projects[pathologic][download][branch] = 7.x-1.x
 projects[pathologic][subdir] = contrib
 
+projects[redirect][version] = 1
+projects[redirect][download][type] = git
+projects[redirect][download][url] = http://git.drupal.org/project/redirect.git
+projects[redirect][download][branch] = 7.x-1.x
+projects[redirect][subdir] = contrib
+
 
 ; Search
 projects[search_api][version] = 1.x-dev
