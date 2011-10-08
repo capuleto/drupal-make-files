@@ -228,7 +228,7 @@ projects[og][subdir] = contrib
 projects[webform][version] = 3
 projects[webform][download][type] = git
 projects[webform][download][url] = http://git.drupal.org/project/webform.git
-projects[webform][download][tag] = 7.x-3.12
+projects[webform][download][tag] = 7.x-3.13
 ;projects[webform][download][branch] =
 projects[webform][subdir] = contrib
 
