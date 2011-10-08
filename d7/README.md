@@ -56,6 +56,8 @@ The following section lists modules that are candidates for the make file.
 * Sweaver (sweaver)
 * Apps (apps)
 * Default Content (defaultcontent)
+* Options Element (options_element)
+* Select or Other (select_or_other)
  
 * _to be continued_
 
