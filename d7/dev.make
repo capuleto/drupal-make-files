@@ -35,7 +35,7 @@ projects[strongarm][subdir] = development
 projects[migrate][version] = 2
 projects[migrate][download][type] = git
 projects[migrate][download][url] = http://git.drupal.org/project/migrate.git
-projects[migrate][download][branch] = 7.x-1.x
+projects[migrate][download][branch] = 7.x-2.x
 projects[migrate][subdir] = development
 
 projects[feeds][version] = 2

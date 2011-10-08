@@ -51,7 +51,7 @@ projects[bean][subdir] = contrib
 
 projects[libraries][version] = 2
 projects[libraries][download][type] = git
-projects[libraries][download][url] = http://git.drupal.org/project/devel.git
+projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
 projects[libraries][download][branch] = 7.x-2.x
 projects[libraries][subdir] = contrib
 
@@ -98,7 +98,7 @@ projects[ds][subdir] = contrib
 projects[context][version] = 3.x-dev
 projects[context][download][type] = git
 projects[context][download][url] = http://git.drupal.org/project/context.git
-projects[context][download][branch] = 7.x-1.x
+projects[context][download][branch] = 7.x-3.x
 projects[context][subdir] = contrib
 
 projects[menu_block][version] = 2.x-dev
@@ -125,7 +125,7 @@ projects[media_update][subdir] = contrib
 projects[plupload][version] = 1
 projects[plupload][download][type] = git
 projects[plupload][download][url] = http://git.drupal.org/project/plupload.git
-projects[plupload][download][branch] = 7.x-1.x
+projects[plupload][download][branch] = master
 projects[plupload][subdir] = contrib
 
 : Media i18n support module
@@ -205,7 +205,8 @@ projects[filefield_sources][subdir] = contrib
 projects[image_resize_filter][version] = 1
 projects[image_resize_filter][download][type] = git
 projects[image_resize_filter][download][url] = http://git.drupal.org/project/image_resize_filter.git
-projects[image_resize_filter][download][branch] = 7.x-1.x
+projects[image_resize_filter][download][tag] = 7.x-1.13
+;projects[image_resize_filter][download][branch] =
 projects[image_resize_filter][subdir] = contrib
 
 
@@ -227,7 +228,8 @@ projects[og][subdir] = contrib
 projects[webform][version] = 3
 projects[webform][download][type] = git
 projects[webform][download][url] = http://git.drupal.org/project/webform.git
-projects[webform][download][branch] = 7.x-3.x
+projects[webform][download][tag] = 7.x-3.12
+;projects[webform][download][branch] =
 projects[webform][subdir] = contrib
 
 projects[webform_validation][version] = 1
