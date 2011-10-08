@@ -1,13 +1,11 @@
-; ----------- Patches -----------
+; Patches make file
 
-; /**
-;  * This file is just for module and theme patches
-;  */
+; This file is just for module and theme patches
 
-; ### Core patches
+; Core patches
 
 
-; ### Module patches
+; Module patches
 
 
-; ### Theme patches
+; Theme patches

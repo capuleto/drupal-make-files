@@ -54,6 +54,8 @@ The following section lists modules that are candidates for the make file.
 * Schema.org (schemaorg)
 * Renderable Elements (rel)
 * Sweaver (sweaver)
+* Apps (apps)
+* Default Content (defaultcontent)
  
 * _to be continued_
 

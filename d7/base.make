@@ -1,4 +1,13 @@
-; Base
+; Base make file
+
+; This is the base make file that includes other make files depending on the
+; project or installation context.
+;
+; Use it with the following command:
+;
+; drush make base.make <target directory>
+
+
 
 ; This is the base make file that includes other make files depending on the
 ; project or installation context.
@@ -36,11 +45,11 @@ projects[drupal][download][tag] = 7.8
 ; includes[modules] = "modules.make"
 ; includes[example_relative] = "../example_relative/example_relative.make"
 ; includes[remote] = "http://www.example.com/remote.make"
-includes[themes] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/themes.make"
+includes[dev] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/dev.make"
 includes[modules] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/modules.make"
+includes[themes] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/themes.make"
 ;includes[features] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/features.make"
 ;includes[patches] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/patches.make"
-includes[dev] = "https://raw.github.com/mikewink/drupal-make-files/master/d7/dev.make"
 
 
 ; Profiles
