@@ -58,6 +58,7 @@ The following section lists modules that are candidates for the make file.
 * Default Content (defaultcontent)
 * Options Element (options_element)
 * Select or Other (select_or_other)
+* Stage File Proxy (stage_file_proxy) <- still D6
  
 * _to be continued_
 
