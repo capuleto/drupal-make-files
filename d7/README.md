@@ -32,34 +32,6 @@ projects[entity][download][branch] = 7.x-1.x
 
 ### Make file candidate modules
 
-There are so many new modules coming up, that it is hard to keep track of them.
-
-The following section lists modules that are candidates for the make file.
-
-* Bean (bean) - added
-* Boxes (boxes) - added
-* Views Context display (vcd)
-* Profiler (profiler)
-* Message (message)
-* Rules Link (rules_link)
-* Memcache (memcache)
-* Varnish (varnish)
-* Redirect (redirect)
-* Global Redirect (globalredirect)
-* Pathologic (pathologic) - added
-* Variable (variable) - added
-* Entity Views Attachement (eva)
-* Spaces (spaces)
-* Microdata (microdata)
-* Schema.org (schemaorg)
-* Renderable Elements (rel)
-* Sweaver (sweaver)
-* Apps (apps)
-* Default Content (defaultcontent)
-* Options Element (options_element)
-* Select or Other (select_or_other)
-* Stage File Proxy (stage_file_proxy) <- still D6
- 
-* _to be continued_
+Candidate modules can be found in the wiki: https://github.com/mikewink/drupal-make-files/wiki/Candidate-modules
 
 
