@@ -1,4 +1,4 @@
-## Drupal make files
+# Drupal make files
 
 This repo houses my Drupal (Drush) make files for development and some production
 sites. 
