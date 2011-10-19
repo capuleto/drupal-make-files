@@ -107,6 +107,12 @@ projects[menu_block][download][url] = http://git.drupal.org/project/menu_block.g
 projects[menu_block][download][branch] = 7.x-2.x
 projects[menu_block][subdir] = contrib
 
+projects[field_group][version] = 1.x-dev
+projects[field_group][download][type] = git
+projects[field_group][download][url] = http://git.drupal.org/project/field_group.git
+projects[field_group][download][branch] = 7.x-1.x
+projects[field_group][subdir] = contrib
+
 
 ; Media
 ; ! update to the 2.x branch as soon as possible
