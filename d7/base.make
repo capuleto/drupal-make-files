@@ -8,13 +8,6 @@
 ; drush make base.make <target directory>
 
 
-
-; This is the base make file that includes other make files depending on the
-; project or installation context.
-;
-; @TODO Put installation profiles into a separate make file;
-
-
 ; Core version
 ; The make file always begins by specifying the core version of Drupal for
 ; which each package must be compatible.
@@ -26,17 +19,17 @@ core = 7.x
 api = 2
 
 
-; Drupal core 
+; Drupal core
 ; The latest stable release (security fixed)
 ;projects[] = drupal
 
 ; Specific version
-;projects[drupal][version] = 7.8
+;projects[drupal][version] = 7.9
 
 ; Head from git
 projects[drupal][download][type] = git
 projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
-projects[drupal][download][tag] = 7.8
+projects[drupal][download][tag] = 7.9
 ;projects[drupal][download][branch] = 7.x
 ;projects[drupal][download][revision] =
 

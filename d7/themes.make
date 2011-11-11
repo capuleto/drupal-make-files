@@ -33,5 +33,3 @@ projects[rubik][version] = 4.x-dev
 ;projects[rubik][download][type] = git
 ;projects[rubik][download][url] = http://git.drupal.org/project/rubik.git
 ;projects[rubik][download][branch] = 7.x-4.x
-
-
