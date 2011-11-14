@@ -2,8 +2,6 @@
 
 ; This file is just for modules and their dependent libraries.
 ; There is no differentiation between stable and dev releases!
-;
-; @TODO include commerce modules using it's own make file and directory?
 
 
 ; API Modules
@@ -296,6 +294,7 @@ projects[facetapi][download][url] = http://git.drupal.org/project/facetapi.git
 projects[facetapi][download][branch] = 7.x-1.x
 projects[facetapi][subdir] = contrib
 
+
 ; Commerce
 ; add commerce related projects as well
 projects[commerce][version] = 1.x-dev
@@ -331,7 +330,6 @@ projects[google_analytics][download][branch] = 7.x-1.x
 projects[google_analytics][subdir] = contrib
 
 
-
 ; Libraries
 
 ; TinyMCE
@@ -345,3 +343,9 @@ libraries[colorbox][download][type] = git
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][directory_name] = colorbox
 libraries[colorbox][destination] = libraries
+
+; Plupload
+libraries[plupload][download][type] = get
+libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1.zip"
+libraries[plupload][directory_name] = plupload
+libraries[plupload][destination] = libraries
