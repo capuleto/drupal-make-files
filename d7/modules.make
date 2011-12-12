@@ -174,6 +174,12 @@ projects[l10n_update][download][url] = http://git.drupal.org/project/l10n_update
 projects[l10n_update][download][branch] = 7.x-1.x
 projects[l10n_update][subdir] = language
 
+projects[potx][version] = 1.x-dev
+projects[potx][download][type] = git
+projects[potx][download][url] = http://git.drupal.org/project/potx.git
+projects[potx][download][branch] = 7.x-1.x
+projects[potx][subdir] = language
+
 
 ; Content & Editor
 projects[wysiwyg][version] = 2.x-dev

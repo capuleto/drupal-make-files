@@ -24,12 +24,12 @@ api = 2
 ;projects[] = drupal
 
 ; Specific version
-;projects[drupal][version] = 7.9
+;projects[drupal][version] = 7.10
 
 ; Head from git
 projects[drupal][download][type] = git
 projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
-projects[drupal][download][tag] = 7.9
+projects[drupal][download][tag] = 7.10
 ;projects[drupal][download][branch] = 7.x
 ;projects[drupal][download][revision] =
 
